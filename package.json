@@ -1,0 +1,19 @@
+{
+  "name": "ecoegypt-assistant-backend",
+  "version": "1.0.0",
+  "description": "Backend server for the EcoEgypt Smart Solution Assistant (Gemini-powered).",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^3.0.0",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
